@@ -4,6 +4,6 @@ mk() {
 	mkdir $1 && cd $1
 }
 
-clone() {
+gclone() {
 	git clone "$1" && cd "$(basename "$1" .git)"
 }
