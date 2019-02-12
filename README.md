@@ -10,11 +10,13 @@ The repo contains three dotfiles:
 ## Usage
 To use these download the repo into your root directory and then add the following to the bottom of your `~/.bashrc`:
 ```
-source ~/dotfiles/.*.sh
+for file in ~/yechiels-dotfiles/.*.sh
+do source $file
+done
 ```
 
 And the following to your `~/.gitconfig`:
 ```
 [include]
-        path = ~/dotfiles/.git_aliases
+        path = ~/yechiels-dotfiles/.git_aliases
 ```
