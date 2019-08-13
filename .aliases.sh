@@ -1,5 +1,6 @@
 alias connect="sudo easytether-usb"
 alias vpn="globalprotect"
+alias please="sudo "
 
 mk() {
 	mkdir $1 && cd $1
