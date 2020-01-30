@@ -2,6 +2,7 @@
 	co = checkout
 	ci = commit
 	st = status
+	credit = blame
 	save = !git add -A && git commit -m 'SAVEPOINT'
 	undo = reset HEAD~1 --mixed
 	amend = commit -a --amend
