@@ -1,5 +1,6 @@
 alias connect="sudo easytether-usb"
 alias vpn="globalprotect"
+alias screen="/snap/screen/current/screen/Screen"
 alias please="sudo "
 
 mk() {
