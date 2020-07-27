@@ -8,3 +8,5 @@
 	amend = commit -a --amend
 [core]
 	editor = "vim"
+[init]
+    defaultBranch = "main"
