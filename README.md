@@ -8,7 +8,7 @@ The repo contains three dotfiles:
 * `.git_aliases` contains git aliases
 
 ## Usage
-To use these download the repo into your root directory and then add the following to the bottom of your `~/.bashrc`:
+To use these download the repo into your root directory and then add the following to the bottom of your `~/.bashrc` (`~/.bash_profile` on mac):
 ```shell
 for file in ~/yechiels-dotfiles/.*.sh
 do source $file
