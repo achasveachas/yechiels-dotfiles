@@ -1,6 +1,6 @@
-alias vpn="globalprotect"
 alias please="sudo "
 alias yeet="rm -rf "
+alias k="kubectl "
 
 mk() {
 	mkdir $1 && cd $1
