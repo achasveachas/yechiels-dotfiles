@@ -9,4 +9,7 @@
 [core]
 	editor = "vim"
 [init]
-    defaultBranch = "main"
+        defaultBranch = "main"
+[push]
+	autoSetupRemote = true
+	
