@@ -1,3 +1,6 @@
+[user]
+	name = "Yechiel Kalmenson"
+	email = "contact@yechiel.me"
 [alias]
 	co = checkout
 	ci = commit
